@@ -1,0 +1,92 @@
+/* body {
+
+} */
+h1 {
+  font-size: 2rem;
+  color: #ffe2e2;
+  /* margin: auto; */
+  margin: 3rem auto 1rem;
+  font-weight: 900;
+
+}
+h1:hover{
+  text-shadow: 5px 5px 5px #ffe2e2;
+  cursor: pointer;
+}
+
+
+/* button styles */
+button {
+  background-color: #ffcbcb;
+  font-size: 2rem;
+  outline: none;
+  position: relative;
+  margin: 3rem auto 7rem;
+  /* margin-bottom: 100px; */
+  width: 20rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* margin-left: 30rem;
+  margin-right: 30rem;
+  position: static; */
+}
+button:hover {
+    cursor: pointer;
+
+    background-color: #eb8f8f;
+    color: white;
+}
+
+.btn {
+  background-color: #ffcbcb;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #006a71;
+  align-items: : center;
+  justify-content: center;
+  /* padding: 400px; */
+  text-align: center;
+}
+
+.Game-Zone {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+  /* margin: auto; */
+  margin: 3rem auto 1rem;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  border: 3px solid black;
+  transition: background 0.2s ease-in-out;
+}
+
+.block:hover {
+  cursor: pointer;
+    ;
+}
+
+#block_0,#block_1,#block_2 {
+  border-top: none;
+}
+#block_0,#block_3,#block_6 {
+  border-left: none;
+}
+
+#block_6,#block_7,#block_8 {
+  border-bottom: none;
+}
+
+#block_2,#block_5,#block_8 {
+  border-right: none;
+}
